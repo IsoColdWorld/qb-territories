@@ -81,7 +81,7 @@ CreateThread(function()
                         while insidePoint == true do
                             
                            
-                                exports['qb-drawtext']:DrawText(Lang:t("error.hostile_zone"),'right')
+                                exports['qb-core']:DrawText(Lang:t("error.hostile_zone"),'right')
                             
                            
                             
@@ -99,7 +99,7 @@ CreateThread(function()
 
                             Wait(1000)
                         end
-                        exports['qb-drawtext']:HideText()
+                        exports['qb-core']:HideText()
                     end
                 end
                 Wait(2000)
